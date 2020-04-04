@@ -1,0 +1,11 @@
+{
+    "files.watcherExclude": {
+        "**/drush/contrib/**": true,
+        "**/vendor/**": true,
+        "**/web/core/**": true,
+        "**/web/libraries/**": true,
+        "**/web/modules/contrib/**": true,
+        "**/web/profiles/contrib/**": true,
+        "**/web/themes/contrib/**": true
+    }
+}
