@@ -28,3 +28,7 @@
 !/web/sites/*/files/inline-images/
 # Webpage logo
 !/web/sites/*/files/*logo*
+# All image files (because of the folder structure, we cannot suppose their location)
+!/web/sites/*/files/**/*.png
+!/web/sites/*/files/**/*.jpg
+!/web/sites/*/files/**/*.jpeg
