@@ -14,9 +14,6 @@
 # Ignore Drupal's file directory
 /web/sites/*/files/
 
-# ...except image files (custom)
-!/web/sites/*/files/*/*.png
-
 # Ignore SimpleTest multi-site environment.
 /web/sites/simpletest
 
@@ -25,3 +22,9 @@
 
 # Ignore .env files as they are personal
 /.env
+
+## Exceptional files not to ignore
+# Inline images
+!/web/sites/*/files/inline-images/
+# Webpage logo
+!/web/sites/*/files/*logo*
