@@ -11,8 +11,15 @@
 /web/sites/*/settings.php
 /web/sites/*/settings.local.php
 
-# Ignore files in Drupal's file directory
-/web/sites/*/files/*
+# Ignore generated files in Drupal's file directory
+/web/sites/*/files/color
+/web/sites/*/files/css
+/web/sites/*/files/js
+/web/sites/*/files/languages
+/web/sites/*/files/php
+/web/sites/*/files/styles
+/web/sites/*/files/translations
+/web/sites/*/files/.*
 
 # Ignore SimpleTest multi-site environment.
 /web/sites/simpletest
@@ -23,12 +30,5 @@
 # Ignore .env files as they are personal
 /.env
 
-## Exceptional files not to ignore
-# Inline images
+# Don't ignore inline images
 !/web/sites/*/files/inline-images/
-# Webpage logo
-!/web/sites/*/files/*logo*
-# All image files (because of the folder structure, we cannot suppose their location)
-!/web/sites/*/files/**/*.png
-!/web/sites/*/files/**/*.jpg
-!/web/sites/*/files/**/*.jpeg
