@@ -1,4 +1,3 @@
-
 DATABASE_USER="drupal1"
 DATABASE_NAME="drupal1"
 DATABASE_BACKUP="./mis-backups/database_backup.sql"
