@@ -1,0 +1,9 @@
+.region-primary-menu .menu a {
+  padding-right: 2em;
+  padding-left: 2em;
+  font-size: large;
+}
+
+.site-branding__logo {
+  max-width: 54%;
+}
