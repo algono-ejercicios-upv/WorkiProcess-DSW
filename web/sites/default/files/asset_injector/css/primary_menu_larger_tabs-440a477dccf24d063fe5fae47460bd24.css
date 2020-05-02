@@ -1,0 +1,16 @@
+.region-primary-menu .menu .menu-item a {
+  font-size: large;
+}
+
+.region-primary-menu .menu .menu-item a:not(:hover):not(.is-active) {
+  background: #c8c1a5;
+}
+
+.region-primary-menu .menu .menu-item a:hover:not(.is-active) {
+  background: #ebe7d5;
+}
+
+.site-branding__logo {
+  max-width: 54%;
+  padding-bottom: 5em;
+}
